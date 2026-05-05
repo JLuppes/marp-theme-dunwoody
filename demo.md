@@ -76,7 +76,7 @@ You can also use emojis: :smile:
 
 <!-- _header: Figures -->
 
-1. First, download the image (`kenkyu_woman_seikou.png`) from [this Irasutoya link](https://www.irasutoya.com/2018/10/blog-post_723.html) by right-clicking.
+1. First, download the image (`Dunwoody1452-1-1.jpg`) from [this Dunwoody College of Technology link](https://dunwoody.edu/about/campus/) by right-clicking.
 2. Create a directory named `images` in the same directory as this Markdown file, and place the downloaded image there. Now you're all set.
 
-![w:300 center](./images/kenkyu_woman_seikou.png)
+![w:300 center](./images/Dunwoody1452-1-1.jpg)
