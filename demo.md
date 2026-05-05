@@ -35,7 +35,7 @@ YYYY/MM/DD
   - Basic Markdown syntax is supported.
 - You can move to the next page simply by inserting a horizontal rule `---` in Markdown.$^1$
 
-> 1: Since Marp is developed according to the CommonMark Markdown specification, the "footnote" syntax (the one using `[^1]`), which is not part of CommonMark, is not provided. Therefore, I implemented a pseudo-footnote by referring to https://github.com/marp-team/marp/discussions/150#discussioncomment-1302384.
+> 1: Since Marp is developed according to the CommonMark Markdown specification, the "footnote" syntax (the one using `[^1]`), which is not part of CommonMark, is not provided. Therefore, Kaisugi implemented a pseudo-footnote by referring to [this marp discussion](https://github.com/marp-team/marp/discussions/150#discussioncomment-1302384).
 
 ---
 
