@@ -80,3 +80,15 @@ You can also use emojis: :smile:
 2. Create a directory named `images` in the same directory as this Markdown file, and place the downloaded image there. Now you're all set.
 
 ![w:300 center](./images/Dunwoody1452-1-1.jpg)
+
+---
+
+<!-- _header: Presenter Notes -->
+
+You can add presenter notes with html comments!
+
+```html
+<!-- Remember to talk about presenter notes during this slide! -->
+```
+
+<!-- Remember to talk about presenter notes during this slide! -->
