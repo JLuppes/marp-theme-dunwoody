@@ -1,27 +1,32 @@
-/* @theme dunwoody */
+/* @theme dunwoody-local */
 
-@import 'gaia';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import "gaia";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 :root {
   --color-background: #fff;
   --color-foreground: #333;
-  --color-highlight: #800000;
+  --color-highlight: #ac182e;
 }
 
 section {
   background-image: none;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   padding-top: 90px;
   padding-left: 40px;
   padding-right: 40px;
+  width: 1200px;
+  height: 1200px;
+  font-size: 40px;
 }
 
 /* https://github.com/marp-team/marpit/issues/271 */
 section::after {
-  font-weight: 700;
-  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+  font-size: 20px;
+  font-weight: 400;
+  content: "Copyright © 2026 Dunwoody College of Technology.\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0"
+    attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
 }
 
 ul ul {
@@ -29,49 +34,55 @@ ul ul {
 }
 
 section.lead h1 {
-  color: #800000;
+  color: #ac182e;
   text-align: left;
 }
 section.lead h1 strong {
-  -webkit-text-stroke: 1px #800000;
+  -webkit-text-stroke: 1px #ac182e;
 }
 section.lead h2 {
-  color: #800000;
+  color: #ac182e;
   text-align: left;
 }
 section.lead h2 strong {
-  -webkit-text-stroke: 1px #800000;
+  -webkit-text-stroke: 1px #ac182e;
 }
 section.lead h3 {
-  color: #800000;
+  color: #ac182e;
   text-align: left;
 }
 section.lead h3 strong {
-  -webkit-text-stroke: 1px #800000;
+  -webkit-text-stroke: 1px #ac182e;
 }
 section.lead h4 {
-  color: #800000;
+  color: #ac182e;
   text-align: left;
 }
 section.lead h4 strong {
-  -webkit-text-stroke: 1px #800000;
+  -webkit-text-stroke: 1px #ac182e;
 }
 section.lead h5 {
-  color: #800000;
+  color: #ac182e;
   text-align: left;
 }
 section.lead h5 strong {
-  -webkit-text-stroke: 1px #800000;
+  -webkit-text-stroke: 1px #ac182e;
 }
 section.lead p {
   text-align: right;
 }
 
 header {
-  background-color: #800000;
+  background-color: #ac182e;
   color: #fff;
   font-size: 1em;
   font-weight: 700;
+}
+
+header::after {
+  position: absolute;
+  right: 10px;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' viewBox='0 0 1511 1511'%3E%3Cpath id='Inner' fill='white' stroke='white' stroke-width='1' d='M 487.90,388.04 C 487.90,388.04 490.73,334.30 501.94,325.04 513.15,315.79 529.96,309.21 583.81,305.06 637.66,300.92 730.74,303.11 760.22,308.72 789.71,314.32 911.54,342.59 973.18,394.98 1034.83,447.36 1088.96,513.68 1110.94,600.79 1132.91,687.91 1148.33,832.97 1100.30,963.79 1052.27,1094.62 962.53,1207.74 736.91,1225.44 511.28,1243.13 496.12,1134.43 490.43,1079.45 484.74,1024.46 487.90,388.04 487.90,388.04 Z M 364.52,455.41 C 365.87,455.57 365.11,1127.96 363.37,1127.76 365.23,1133.80 356.87,1184.46 353.19,1185.78 350.55,1190.69 336.92,1206.71 328.76,1208.17 325.59,1214.74 293.66,1221.86 280.20,1223.07 280.61,1224.58 239.22,1227.72 239.23,1229.05 232.90,1230.03 233.34,1265.26 241.77,1263.91 241.77,1263.91 277.47,1262.86 277.47,1262.86 277.47,1262.86 445.81,1259.06 445.81,1259.06 445.81,1259.06 658.54,1277.38 672.79,1271.28 687.04,1265.17 864.65,1284.80 1012.24,1202.36 1159.82,1119.91 1267.20,1007.66 1281.45,761.34 1295.70,515.02 1126.74,244.28 663.63,258.53 629.40,258.87 598.19,257.46 569.40,257.82 207.69,262.36 256.98,270.03 256.98,270.03 249.67,271.33 250.59,308.72 259.59,307.12 259.59,307.12 327.17,307.90 342.27,331.07 369.04,355.52 366.63,446.02 364.52,455.41 Z' /%3E%3C/svg%3E");
 }
 
 blockquote {
@@ -79,7 +90,7 @@ blockquote {
   border-top: 0.1em dashed #555;
   font-size: 60%;
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
 }
 blockquote::before {
   content: "";
@@ -94,5 +105,10 @@ img[alt~="center"] {
 }
 
 code {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
+
+  &[class^="language-"],
+  &[class^="language-"] * {
+    font-size: 80px;
+  }
 }
